@@ -140,7 +140,6 @@ Existem diversas ferramentas no mercado, todas possuem cerca de 95% das capacida
 Criamos dois protótipos para mostrar como podemos mudar rapidamente os elementos caso não gostamos do resultado final.
 ![[img-20.png]]
 
-aaa
 
 
 
