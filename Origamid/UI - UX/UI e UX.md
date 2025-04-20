@@ -4,7 +4,7 @@ UI Designer para iniciantes
 **O Curso** 
 - **UI Designer Para Iniciantes**
 	User Interface (Interface de Usuário) Designer, User Experience (Experiência do Usuário)
-- **Pré requisitos **
+- **Pré requisitos**
 	Totalmente do zero
 - **Ferramentas**
 	Figma
@@ -139,44 +139,149 @@ Existem diversas ferramentas no mercado, todas possuem cerca de 95% das capacida
 ### Protótipo
 Criamos dois protótipos para mostrar como podemos mudar rapidamente os elementos caso não gostamos do resultado final.
 ![[img-20.png]]
+# Espaços
+O principal uso do espaço é para definirmos uma relação lógica entre os nossos elementos. Com os espaços podemos:
+- Agrupar e separar elementos 
+- Definir hierarquias 
+- Organizar informações 
+- Espaços para respirar
+## Agrupar e separar elementos
+Espaços menores agrupam elementos relacionados. o conceito de espaço maior/menor é relativo aos demais elementos da página.
+![[img-21.png]]
+- Espaços maiores separam componentes
+![[img-22.png]]
+Exemplo:
+![[img-23.png]]
+No menu desse site já podemos ver como a separação funciona
+- a marca está na extrema esquerda
+- o menu está no meio
+- o submenu está na extrema direita
+só essa separação já nos diz aonde fica o menu.
+![[img-24.png]]
+outra vez podemos ver a separação de elementos por causa do espaçamento, esses três itens acima estão fazendo isso.
+## Definir hierarquia
+Com o espaço podemos definir a ordem de importância dos elementos.
+![[img-25.png]]
+## Grid
+O grid é uma malha invisível que serve para posicionarmos os elementos com um alinhamento lógico. Você não precisa ficar restrito ao grid definido, quebras do grid são bem vindas para a criação de contraste.
+O grid do site ramp utiliza uma base de 12 colunas e o conteúdo é organizado dentro das mesmas.
+![[img-26.png]]
+## Espaço para respirar
+Crie espaço entre o conteúdo e a sua borda permite que o mesmo possa 'respirar'
+![[img-27.png]]
+Exemplo:
+![[img-28.png]]
+# Tipografia
+"Web Design e 95% tipografia"
+## Classificações
+- Classificações
+	Serifadas, Sem serifas, Monoespaçadas, Cursivas e decorativas.
+- Famílias
+	Arial, Helvética, Georgia, Futura, Roboto e outras.
+- Fontes
+	Georgia Regular, Georgia Bold, Georgia Italic e outras.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Serifadas
+As serifadas (serif) são caracterizadas pelos pequenos detalhes nas extremidades dos caracteres
+- Estilo
+	Formal, clássico, luxo, literário e manual.
+- Uso
+	Corpo de texto e títulos.
+![[img-29.png]]
+O site [Every](https://every.to/) usa serifadas (mas em botões eles usam sem serifas)
+### Sem Serifas
+As sem serifas (sans serif) são caracterizadas pelas suas formas neutras e pela ausência das serifas
+- Estilo
+	Neutro, Digital, Objetivas e Informal
+- Uso
+	Corpo de texto e títulos e textos funcionais(botões, links, abas, etc..).
+![[img-30.png]]
+nessa print esse site usa fontes sem serifas
+![[img-31.png]]
+### Monoespaçadas
+As Monoespaçadas (monospace) possuem todos os seus caracteres com a mesma largura, permitindo que linhas de texto se alinhem perfeitamente uma abaixo da outra.
+- Estilo
+	digital, objetivo e técnico.
+- Uso
+	Dados, tabelas e código.
+![[img-32.png]]
+usamos muito em ide's (local onde escrevemos os códigos)
+![[img-33.png]]
+### Cursivas
+As tipografias cursivas (script/handwriting) tentam imitar a escrita ocidental com formas orgânicas e geralmente ligadas entre si.
+- Estilo
+	Manual e celebrações.
+- Uso
+	Títulos e pequenos textos.
+![[img-34.png]]
+### Decorativas
+Tipografias decorativas (display) são todas aquelas que possuem características fortes que as tornam distintas de qualquer outra tipografia. Elas podem dar vida ou arruinar um projeto.
+- Estilo
+	Sites temáticos.
+- Uso
+	Títulos e pequenos textos.
+![[img-35.png]]
+O site [Monday](https://drinkmonday.co/) utiliza essa fonte mas em partes pontuais.
+## Famílias
+O desenho de uma tipografia feito por um designer de tipos define uma família tipográfica. As famílias tipográficas são as mais variadas possíveis e geralmente possuem influências históricas.
+Quando um designer cria uma família tipográfica que possui diferentes classificações, temos uma super família.
+![[img-36.png]]
+## Fontes
+A família tipográfica é composta por diferentes fontes que podem variar desde o peso (regular/bold) ao estilo (oblique/italic). A fonte é o arquivo final.
+Além de estilos pré-definidos, temos hoje em dia fontes variáveis que permitem criar fontes com um ajuste mais fino.
+![[img-37.png]]
+Toda fonte possui a sua classificação, família e peso.
+![[img-38.png]]
+### contraste
+- Fontes 
+	O Uso de diferentes fontes facilita a criação de contrastes entre os elementos.
+- Famílias
+	Evite utilizar famílias parecidas e se limite ao uso de duas diferentes (iniciantes),
+![[img-39.png]]
+# Escolhas Tipográficas
+## Usos 
+- Títulos 
+	Títulos de páginas, seções, nomes de produtos, listas(pequenas).
+- Corpo
+	Artigos, descrição de produtos, perguntas e respostas.
+- Funcional
+	Botões, links formulários, notificações, etiquetas.
+![[img-40.png]]
+### Funcional
+- Neutra 
+	Geralmente são usadas sem serifa com foco na legibilidade.
+- Evite
+	Fontes com caracteres fortes ou pouco contraste entre os mesmos.
+- Variações
+	opte por fontes com variações de pesos e estilos.
+- sugestões
+	Arial, open Sans, Roboto, Source Sans, IBM Plex Sans, Lato
+Não teste a fonte em um contexto isolado. Crie diversos componentes e troque todas as fontes de uma vez para verificar como o mesma impacta no todo.
+![[img-41.png]]
+### Corpo
+- Leiturabilidade
+	Serifadas e sem serifas funcionam para o corpo de texto. A escolha depende do estilo do site.
+- Familiar
+	Quanto mais familiar a tipografia for, maior facilidade o usuário terá para ler.
+- Variações 
+	Opte por famílias com variações de pesos e estilos. 
+- Sugestões
+	Arial, Roboto Slab, Open Sans, Alegreya
+As variações de peso e estilo de uma família permitem criarmos contraste no corpo de texto. O contraste serve para destacarmos palavras ou frases.
+![[img-42.png]]
+### Título
+- Estilo
+	A escolha pode ajudar a definir o estilo gráfico do site.
+- Consistência
+	As características devem se comunicar com as dos demais elementos.
+- Diferente?
+	Não existe necessidade de ser diferente, ela pode ser a mesma utilizada no corpo/funcional. 
+![[img-43.png]]
+### Fontes:
+- Google Fonts
+	[Browse Fonts - Google Fonts](https://fonts.google.com/)
+- DaFont
+	[DaFont - Baixar fontes](https://www.dafont.com/pt/)
 
 
 
