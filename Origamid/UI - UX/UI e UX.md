@@ -282,19 +282,81 @@ As variações de peso e estilo de uma família permitem criarmos contraste no c
 	[Browse Fonts - Google Fonts](https://fonts.google.com/)
 - DaFont
 	[DaFont - Baixar fontes](https://www.dafont.com/pt/)
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Variáveis Tipográficas
+> [!sumario]
+> - Escala
+> - Altura de linha
+> - Peso e estilo
+> - Maiúsculas
+> - Largura de linha
+> - Espaçamento
+> - Alinhamento
+## Escala
+- Define uma escala
+	Entre 6 e 12 variações são o suficiente para definir a hierarquia.
+- Contraste
+	Opte por valores que possuem diferenças significativas.
+	Use: 14 e 18 (28%). Não use 44 e 48 (9%)
+- Legibilidade/Leiturabilidade
+	Entre 14 - 24 para corpo de texto.
+- Google Material (boa escala)
+	[The type system - Material Design](https://m2.material.io/design/typography/the-type-system.html#type-scale)
+![[img-44.png]]
+Tamanho das escalas definidas
+![[img-45.png]]
+Sem uma diferença de tamanho entre os textos, a hierarquia não fica bem definida.
+![[img-46.png]]
+## Altura de linha
+A altura de linha possui dependência direta com a escala e tipografia.
+- Corpo 
+	Entre 14 e 24 - use 1.3x à 1.5x EX: 16/24 ou 24/36
+- Corpo Exemplos:
+	Medium 21/32 (1.52), Google 14/22 (1.57),  Airbnb 16/24 (1.5)
+- Título
+	Acima de 30 - use entre 1x à 1.25x EX: 32/40 ou 64/72.
+- Título Exemplos:
+	Airbnb: 30/36 (1.2), Airbnb: 94/98 (1.04), Medium46/56 (1.22)
+![[img-47.png]]
+Esse texto usa as altura de linha do Airbnb (tanto no titulo quanto no texto)
+Título: 64/72(1.1), corpo 24/36(1.5) //BOM 
+![[img-48.png]]
+Título: 64/96(1.5), corpo 24/26(1.1) //RUIM
+![[img-49.png]]
+## Peso e Estilo
+O peso e o estilo são utilizados para criar contraste entre uma mesma família.
+- Corpo
+	Dentro de um corpo de texto o peso serve pra dá ênfase, enquanto o estilo itálico/obliquo serve para destacarmos nomes, palavras estrangeiras e frases  
+- Peso
+	Geralmente vão de 100 a 900 e podem também ser representados com nomes:
+	Light, Regular, Normal, Semibold, Bold e Black.
+- Estilo
+	Pode ser normal/regular, itálico ou oblíquo O itálico além de inclinar a tipografia, também modifica alguns caracteres para melhor representar o estilo. Cuidado com itálicos falsos, forçados através de software.
+## Maiúscula
+- Título
+	Em títulos a escolha entre maiúsculas e minúsculas está relacionadas ao desenho dos caracteres.
+![[img-51.png]]
+- funcional
+	O uso de maiúsculas é comum em textos funcionais (botões), por criarem um bloco com tipografia, devido à sua ausência de ascendentes e descendentes. Esse bloco torna o alinhamento mais consistente.
+![[img-52.png]]
+## Largura de linha
+Controlar a largura de linha é essencial para o corpo de texto. Uma largura muito grande dificulta a leitura.
+- Dica
+	Entre 45 e 75 caracteres (13 palavras), sempre controle a largura, mesmo que o seu site tenha um layout fluido o `max-width` do conteúdo.
+- Exemplos
+	Google: 85, Medium: 80, New York Times: 65.
+ ![[img-53.png]]
+## Espaçamento
+O espaçamento entre os caracteres (tracking/latter-spacing) pode ser modificado, mas cuidado com exageros. Geralmente o definido pelo criador é o ideal.
+Maiúsculas podem se beneficiar com o aumento do letter-spacing.
+![[img-54.png]]
+## Alinhamento 
+- Esquerda 
+	O mais comum e recomendado para web
+- Direita
+	Depende do layout, pode funcionar em casos que você possui uma foto à direita e o texto à esquerda.
+- Centralizado
+	Funciona para títulos e pequenos textos. Mas deve respeitar o layout do site.
+![[img-55.png]]
 
 
 
