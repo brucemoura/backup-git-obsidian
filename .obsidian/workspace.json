@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "20b47052d82668b2",
+        "id": "af6822efde698a29",
         "type": "tabs",
         "children": [
           {
-            "id": "0e983da0a32ebeb9",
+            "id": "4b903fd61c638c20",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 202.5
   },
   "right": {
     "id": "d94aca16319c999c",
@@ -164,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 221.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,22 +179,24 @@
   },
   "active": "9e80cf4f858ea486",
   "lastOpenFiles": [
-    "Origamid/UI - UX/images/img-86.png",
-    "Origamid/UI - UX/images/img-85.png",
-    "Origamid/UI - UX/images/img-84.png",
-    "Origamid/UI - UX/images/img-83.png",
-    "Origamid/UI - UX/images/img-82.png",
-    "Origamid/UI - UX/images/img-81.png",
-    "Origamid/UI - UX/images/img-80.png",
-    "Origamid/UI - UX/images/img-79.png",
-    "Origamid/UI - UX/images/img-78.png",
-    "Origamid/UI - UX/images/img-77.png",
-    "Origamid/UI - UX/images/img-76.png",
+    "Origamid/UI - UX/images/img-119.png",
+    "Origamid/UI - UX/images/img-101.jpg",
+    "Origamid/UI - UX/images/img-100.jpg",
+    "Origamid/UI - UX/images/img-99.jpg",
+    "Origamid/UI - UX/images/img-98.jpg",
+    "Origamid/UI - UX/images/img-97.jpg",
+    "Origamid/UI - UX/images/img-96.jpg",
+    "Origamid/UI - UX/images/img-95.jpg",
+    "Origamid/UI - UX/images/img-94.jpg",
+    "Origamid/UI - UX/images/img-93.jpg",
+    "Origamid/UI - UX/images/img-120.jpg",
     "Origamid/UI - UX/UI e UX.md",
+    "Origamid/UI - UX/images",
+    "Origamid/UI - UX/img",
+    "Origamid/UI - UX/Nova pasta",
     "Origamid",
     "Origamid/HTML - CSS/HTML e CSS.md",
     "Sem título.md",
-    "Origamid/UI - UX/images",
     "Origamid/UI - UX",
     "Origamid/JavaScript",
     "Origamid/HTML - CSS",
