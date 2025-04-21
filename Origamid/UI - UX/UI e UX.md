@@ -357,46 +357,133 @@ Maiúsculas podem se beneficiar com o aumento do letter-spacing.
 - Centralizado
 	Funciona para títulos e pequenos textos. Mas deve respeitar o layout do site.
 ![[img-55.png]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Cores
+## RGB 
+As telas são compostas por minúsculas 'lâmpadas' que imitam as cores vermelha, verde e azul. As 3 cores combinadas (aditivas) formam todas as outras possíveis de se ver em uma tela.
+Podemos controlar essas cores com valores de 0 a 255, sendo 0 totalmente apagada e 255 totalmente acesa.
+![[img-56.png]]
+## Hexadecimal
+Formato em código com 16 possíveis valores (hexa) que define o RGB da cor.
+![[img-57.png]]
+Calculo: multiplique o 1° valor por 16 e some ao 2°.
+![[img-58.png]]
+## HSB
+- Hue (matiz)
+	A cor, de 0 a 360
+- Saturation (saturação)
+	A intensidade da cor, de 0 a 100
+- Brightness (brilho)
+	Preto/branco na cor de 0 a 100
+![[img-59.png]]
+# Cores em interface
+## Funções
+> [!sumario]
+> - Contraste
+> - Hierarquia
+> - Informação
+> - Identidade
+### Contraste
+A função mais importante da cor é criar contraste entre os elementos e permitir diferenciarmos os mesmos. Acertar o contraste no texto é essencial para criarmos um site acessível.
+![[img-60.png]]
+Assim seria se o site não tivesse contraste:
+![[img-61.png]]
+#### Acessibilidade
+As diretrizes WCAG(Web Content Accessibility Guidelines) definem um cálculo específico que indica se o contraste entre o fundo e a tipografia é acessível ou não.
+[Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.0](https://www.w3.org/Translations/WCAG20-pt-br/)
+![[img-62.png]]
+Temos um plugin no figma que calcula direto se uma cor e contrastante ou não, mas também temos um site: [Contrast Ratio - WCAG Color Contrast Checker](https://www.siegemedia.com/contrast-ratio)
+### Hierarquia
+O uso de diferentes cores e contrastes definem a hierarquia da informação na tela. Sem diferenciação todos os elementos passam a ter o mesmo peso.
+![[img-63.png]]
+### Informação
+A cor também serve como informação. Essa informação depende da cultura e de experiências anteriores do usuário.
+![[img-64.png]]
+Um site pode definir o seu próprio sistema de informações, como o globo.com, que utiliza o vermelho para notícias, laranja para entretenimento e verde para esporte. 
+### Identidade
+A cor também serve para definirmos a identidade da interface e da marca. No site do projeto Bikcraft o amarelo é utilizado para reforçar a identidade da marca.
+![[img-60.png]]
+## Paleta de Cores
+### Interface
+- Base
+	Textos, formulários, links secundários, fundos: tons de cinza.
+- Ênfase
+	Titulo, botões, ícones, fundos, links: cor da identidade.
+- Funcionais
+	Alerta, erros, notificações, links: verde, vermelho e amarelo.
+O Github utiliza tons de cinza como base e o azul/verde para cores de ênfase.
+![[img-65.png]]
+### Variação de cor
+Na natureza dificilmente encontramos uma cor pura, geralmente a cor é seguida por diversas variações da mesma. Pata toda cor que decidirmos utilizar no projeto, ter variações será essencial para compormos a interface.
+![[img-66.png]]
+Em uma variação natural, geralmente a saturação aumenta, enquanto o brilho diminui e mudanças são feitas na matiz para ajustar a luminosidade.
+![[img-67.png]]
+nesse exemplo abaixo podemos ver a diferença entre usar cores chapadas (sem ajuste de brilho e saturação) e cores análogas (com ajuste de brilho e saturação)
+![[img-68.png]]
+Para fazer esse tipo e ajuste e simples. Na customização da cor no figma aparece essa tabela:
+![[img-69.png]]
+Se quisermos selecionar um ton mais escuro dessa cor diminuímos a o brilho e aumentamos a saturação:
+![[img-70.png]]
+Assim podemos criar cores escuras e claras.
+-
+As cores possuem luminosidades diferentes, por isso o amarelo é percebido mais claro, independente dos seus valores de saturação.
+![[img-71.png]]
+Podemos utilizar isso para quando uma cor estiver na extremidade direita e não podemos abaixar o brilho e aumentar a saturação para obter uma cor mais escura, então quando formos escolher uma cor mais escura invés de mexer somente no brilho e saturação podemos mexer também na cor.
+## Base
+- Saturação Baixa
+	Cores com saturação baixa(tons de cinza) são as cores mais utilizadas nas interfaces. Elas irão compor a base de fundos, títulos, corpo de texto e mais. A saturação apenas aumenta quando diminuímos o brilho( e vice versa)
+- Tons de Cinza
+	Interfaces de aplicativos com Facebook, YouTube, entre outros geralmente utilizam de tons de cinza(neutro ou frio) como a cor de base.
+- Qual utilizar?
+	Aplicativos para uso diário use tons de cinza. Explore outros tons em site promocional/institucional, mas pode usar tons de cinza sem problemas.
+![[img-72.png]]
+No site the loft verde dessaturados são utilizados em textos, sombras e fundo do site.
+![[img-73.png]]
+No YouTube já usa cores desaturadas mais comuns.
+## Tons de Cinza
+Cerca de 12 variações são o suficiente para te dar bastante flexibilidade na criação de interfaces. Garanta que os valores selecionados funcionem em conjunto (contraste seguindo as diretrizes do WCAG)
+![[img-74.png]]
+Também temos um cinza mais azulado:
+![[img-75.png]]
+## Ênfase
+- Identidade
+	Geralmente é baseada na identidade da marca. Ex: A amazon utiliza o laranja como cor de ênfase e já as Americanas utiliza o vermelho.
+- Contraste
+	Serve para destacarmos títulos, botões e outros elementos importantes.
+- Influência na cor de base
+	Dependendo do projeto a cor de ênfase pode influenciar diretamente a cor de base mudando de um tom de cinza neutro par um tom de cinza esverdeado.
+O the loft utiliza o verde como cor de ênfase. Note que diversos tons de verde são utilizados em elementos como sombra e backgrounds. A cor de base do site é 'contaminada' pela de ênfase, e os tons de cinza são esverdeados
+![[img-72.png]]
+### Tom sobre Tom
+Quando não criamos variações de cor de ênfase, tendemos a utilizar um dos tons de cinza acima da mesma. E geralmente o efeito não é o melhor possível, já que o tom de cinza não possui as características de cor de fundo.
+![[img-76.png]]
+## Funcionais
+Essas cores são extras que servirão principalmente para informar o usuário sobre o status do sistema. Elas podem ser influenciadas pelas demais cores do site.
+![[img-77.png]]
+## Cores em interface prática
+![[img-78.png]]
+# Luz e Sombra
+- Profundidade 
+	Luz e sombra servem para recriarmos a percepção de profundidade que enxergamos no mundo.
+- Contraste
+	A profundidade é mais técnica para criação de contraste entre os elementos.
+No Airbnb a sombra é utilizada para destacar a principal parte do site.
+![[img-79.png]]
+Outro lugar aonde a sombra e utilizada e no Instagram 
+![[img-80.png]]
+## Sombra
+A sombra depende da direção da luz e do objeto.
+![[img-81.png]]
+## Elevação
+Diferentes configurações de sombras criam a ilusão de diferentes elevações na tela.
+![[img-82.png]]
+## Gradiente
+O gradiente deve ser sutil e seguir as mesmas regras das variações de cores.
+Geralmente a cor mais clara vem de cima para baixo, assim como a luz.
+![[img-83.png]]
+O gradient pode dá mais vida ao site:
+![[img-84.png]]
+Gradiente em um botão
+![[img-86.png]]
 
 
 
