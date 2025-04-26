@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "af6822efde698a29",
+        "id": "8dd76a67d7460bb5",
         "type": "tabs",
         "children": [
           {
-            "id": "4b903fd61c638c20",
+            "id": "88ed1e674179eb55",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -177,20 +177,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e80cf4f858ea486",
+  "active": "88ed1e674179eb55",
   "lastOpenFiles": [
-    "Origamid/UI - UX/images/img-119.png",
-    "Origamid/UI - UX/images/img-101.jpg",
-    "Origamid/UI - UX/images/img-100.jpg",
-    "Origamid/UI - UX/images/img-99.jpg",
-    "Origamid/UI - UX/images/img-98.jpg",
-    "Origamid/UI - UX/images/img-97.jpg",
-    "Origamid/UI - UX/images/img-96.jpg",
-    "Origamid/UI - UX/images/img-95.jpg",
-    "Origamid/UI - UX/images/img-94.jpg",
-    "Origamid/UI - UX/images/img-93.jpg",
-    "Origamid/UI - UX/images/img-120.jpg",
+    "Origamid/UI - UX/images/img-140.jpg",
+    "Origamid/UI - UX/images/img-141.jpg",
+    "Origamid/UI - UX/images/image.jpg",
+    "Origamid/UI - UX/images/img-139.jpg",
+    "Origamid/UI - UX/images/img-138.jpg",
+    "Origamid/UI - UX/images/img-137.jpg",
+    "Origamid/UI - UX/images/img-136.jpg",
+    "Origamid/UI - UX/images/img-135.jpg",
+    "Origamid/UI - UX/images/img-134.jpg",
+    "Origamid/UI - UX/images/img-133.jpg",
+    "Origamid/UI - UX/images/img-132.jpg",
     "Origamid/UI - UX/UI e UX.md",
+    "Origamid/UI - UX/links-externos/Projeto Pessoal.md",
+    "Origamid/UI - UX/links-externos/arquitetura da informação.md",
+    "Origamid/UI - UX/links-externos",
     "Origamid/UI - UX/images",
     "Origamid/UI - UX/img",
     "Origamid/UI - UX/Nova pasta",

@@ -521,15 +521,15 @@ Por esse motivo (perceba a qualidade entre as imagens) o ideal é utilizarmos SV
 - Fontes
 Consistência
 As imagens devem possuir iluminação/cores e estilo/composições similares para serem utilizadas juntas.
-![[img-93.png]]
+![[img-93.jpg]]
 esses três imagens acima não foram tiradas pela mesma pessoa e não foram tiradas no mesmo lugar, mas mudando a saturação delas e o ângulo elas parecem que foram tiradas pela mesma pessoa, devemos tornar padrão nossas imagens para que uma tenha a mesma identidade da outra.
 Devemos evitar ilustrações de pessoas diferentes. No exemplo abaixo, dois estilos diferentes são utilizados, criando uma consistência na interface.
-![[img-94.png]]
+![[img-94.jpg]]
 ## Texto e imagem
 O texto deve ser legível. Para isso geralmente utilizamos textos em branco em cima de imagens escuras e vice versa.
-![[img-95.png]]
+![[img-95.jpg]]
 mas se não seguirmos a regra de um ser claro e o outro escuro poda dar muito errado.
-![[img-96.png]]
+![[img-96.jpg]]
 # Ícones
 > [!summary] Sumário
 > - Pista visual
@@ -540,7 +540,7 @@ mas se não seguirmos a regra de um ser claro e o outro escuro poda dar muito er
 > 	Três traços significa menu.
 
 No YouTube utilizam vários ícones para ajudar a encontrar o que se procura.
-![[img-97.png]]
+![[img-97.jpg]]
 - uma casa para o início
 - uma lupa para pesquisa
 E assim por diante.
@@ -549,7 +549,7 @@ Utilize ícones de uma mesma família, A consistência dos ícones está em pequ
 - Traço
 - Cores
 - Estilo
-![[img-98.png]]
+![[img-98.jpg]]
 # Navegação Componentes
 ## Componentes
 - Menu
@@ -566,34 +566,34 @@ Utilize ícones de uma mesma família, A consistência dos ícones está em pequ
 - Fixo?
 	Depende do tamanho do conteúdo, se for fixo e grande diminuir o mesmo
 Anatomia de um Menu
-![[img-99.png]]
+![[img-99.jpg]]
 Praticamente todos os cabeçalhos abaixo seguem a estrutura básica, porém com modificações para as necessidades do site.
-![[img-100.png]]
+![[img-100.jpg]]
 - Todos tem a marca a esquerda
 - todos tem o menu a direita ou ao centro
 - alguns deles tem apenas ícones porque são bastante conhecidos
 ### Menu secundário
 Serve para expandir as opções de menu principal.
 No site RSVP e da Apple ícones e imagens são utilizadas para diferenciarmos os itens do menu secundário.
-![[img-101.png]]
+![[img-101.jpg]]
 Na documentação do Vue.js o menu secundário serve para informar ao usuário todas as seções que existem na documentação.
-![[img-102.png]]
+![[img-102.jpg]]
 ## Tabs
 As Tabs(abas), são menus localizados que geralmente não levam o usuário para outra página, mas sim para um conteúdo no mesmo local. As tabs são inspiradas em arquivos físicos, onde etiquetas indicam o conteúdo.
 - Clicável
 	Indicar que a aba e clicável
 - Estado
 	Indicar claramente qual aba está ativa no momento.
-![[img-103.png]]
+![[img-103.jpg]]
 A navegação por abas por ser utilizadas de diversas formas diferentes, com imagens, ícones marcas , etc. O princípio  dela é ter uma lista que controle a troca de conteúdo
-![[img-104.png]]
+![[img-104.jpg]]
 Aqui também temos navegação por tabs, quando clicamos em cada logo/marca aparece um depoimento diferente.
-![[img-105.png]]
+![[img-105.jpg]]
 Outro tipo que também temos e por fotos, quando passamos o mouse por cima de cada foto ela muda.
-![[img-106.png]]
+![[img-106.jpg]]
 ## Breadcrumb
 O uso de breadcrumb (migalhas de pão) é comum em sites que possuam diversos níveis e subníveis de informações, como em um comércio eletrônico.
-![[img-107.png]]
+![[img-107.jpg]]
 ## Footer
 O footer (rodapé) do site é geralmente utilizado para colocarmos um mapa de links do site. Não precisa ter exatamente todos os links, mas geralmente contém itens importantes que não fazem parte do menu principal, como: termos e condições ou a política de privacidade do site.
 - Contato
@@ -602,7 +602,7 @@ O footer (rodapé) do site é geralmente utilizado para colocarmos um mapa de li
 	Ter links importantes que não foram colocados no menu principal.
 - Redes Sociais
 	Ter os links para as principais redes sociais utilizadas pela empresa.
-![[img-108.png]]
+![[img-108.jpg]]
 # Navegação Elementos
 - Links 
 - Botão 
@@ -615,24 +615,24 @@ O link é um dos principais elementos da web, ele que permite navegarmos entre d
 	Os links geralmente possuem diferentes estados, um para quando o mouse passa por cima, outro quando é clicado e um último para quando o link já foi visitado.
 - Clicável
 	Garantir que o ícone seja facilmente clicável, principalmente no mobile.
-![[img-109.png]]
+![[img-109.jpg]]
  Também possuímos links nas páginas
-![[img-110.png]]
+![[img-110.jpg]]
 Quando o link está localizado no texto, precisamos adicionar outros elementos para criarmos contraste suficiente entre o que é e o que não é link.
-![[img-111.png]]
+![[img-111.jpg]]
 ## Botão
 - Funcionalidade
 	O botão pode funcionar como um link `<a>` levando o usuário para outra página. Ou como o ativador de uma função `<button>`. Exemplos: um botão que adiciona um produto ao carrinho.
 - Contraste
 	O botão deve se diferenciar dos demais conteúdos do site. Geralmente o texto do botão é envolvido em uma caixa.
-![[img-112.png]]
+![[img-112.jpg]]
 No Dropbox temos dois botões logo de início, um para cada coisa.
 ![[img-04.jpg]]
 ## Dropdown
 O Dropdown é uma caixa que geralmente contém outros links importantes, que aparecem ao clicarmos (ou passar o mouse por cima) de um botão/link.
-![[img-113.png]]
+![[img-113.jpg]]
 Em outro caso que temos o mesmo menu e no stripe
-![[img-114.png]]
+![[img-114.jpg]]
 # Listas
 - Didáticas
 	Listas tornam a informação mais fácil de ser escaneada e digerida.
@@ -642,7 +642,7 @@ Em outro caso que temos o mesmo menu e no stripe
 	Tente transformar descrição em listas.
 ## Seções 
 O conteúdo do site geralmente é dividido em uma lista de seções.
-![[img-115.png]]
+![[img-115.jpg]]
 1° seção introdução do site.
 2° qual bike você quer escolher.
 3° falando um pouco mais sobre a bike.
@@ -650,65 +650,213 @@ O conteúdo do site geralmente é dividido em uma lista de seções.
 e assim por diante.
 ## Produtos
 Listas são utilizadas para mostrar o catálogo de produtos. As informações mais comuns em uma lista de produtos são fotos, nome e preço.
-![[img-116.png]]
+![[img-116.jpg]]
 Em outro site por exemplo a Americanas, usam avaliações e quantas vezes podem dividir no cartão.
-![[img-117.png]]
+![[img-117.jpg]]
 ## Preço
 Listas de preços/planos geralmente comparam as diferenças entre os planos.
-![[img-118.png]]
+![[img-118.jpg]]
 No mailchip (app relacionado a email) ele usa muito essa questão de planos e preços
-![[img-119.png]]
+![[img-119.jpg]]
 ## Posts
 Uma lista de postagens/notícias é presente em quase todas as redes sociais, blogs e sites de notícias. Elementos comuns são autor, data, título, thumbnail, tags, breve descrição, links e comentários.
-![[img-120.png]]
+![[img-120.jpg]]
+# Conteúdo
+- Reduza 
+	"Tire metade do conteúdo da página. E do que sobrar remova a outra metade."
+	Steve Krug - Não me faça pensar. 
+- Texto/Visual
+	Adicione elementos visuais ao conteúdo para tornar o mesmo mais interessante.
+	Ex: imagens, vídeos, ícones, decorações, etc..
+- Interação
+	Se o conteúdo fizer parte de uma rede social/blog/site de notícias, permita a interação através de comentários, reviews/aprovações e outras.
+![[img-121.jpg]]
+No site Stripe usam um globo e um pequeno texto explicando qual e o proposito do site.
+![[img-122.jpg]]
+Sempre vamos juntar conteúdo textual com conteúdo visual.
+# Formulários
+- Campos de input
+	text/textarea, checkbox/radio. select, slide, date.
+- Tipos
+	Contato, cadastro, login, busca.
+## `textarea`
+- Livre / Restrito
+	Restrito: conteúdo deve ser específico: CPF, email, Senhas e outros.
+- Label
+	Informa o que deve ser preenchido no campo.
+- Placeholder
+	Dica de como o conteúdo deve ser preenchido.
+![[img-123.jpg]]
+## `checkbox / radio`
+- checkbox
+	Permite múltiplos campos ativos
+- radio
+	Permite apenas um item ativo do grupo
+![[img-124.jpg]]
+## `select`
+- Opções
+	Permite selecionar uma opção da lista. O múltiplo não é muito utilizado.
+- Estilo
+	O padrão do browser/dispositivo geralmente é suficiente
+![[img-125.jpg]]
+## `slide`
+- Sem precisão
+	Funcionam para valores não precisos, como no volume de um vídeo
+- Min/Max
+	Precisamos definir um valor mínimo e um máximo do slide.
+![[img-126.jpg]]
+## `date`
+- Reservas
+	Utilizado em reserva de hotéis, passagens aéreas e mais.
+- Início / Fim
+	Indicar no calendário as datas selecionadas
+date do Airbnb ![[img-127.jpg]]
+# Páginas mais comuns
+## Contato
+- mínimo possível
+	Peça a menor quantidade de informações possíveis.
+- Label e placeholder
+	Label em cima no canto esquerdo.
+- Feedback de erro / sucesso
+	-Informa se algum erro ocorrer ou se for enviado.
+![[img-128.jpg]]
+## Cadastro
+- Simples
+	Apenas informações necessárias. Resumo da compra. 
+- Placeholder
+	Dica de como preencher CEP, Cartão e outros.
+- Uma página
+	Tente manter o processo em uma única página.
+![[img-129.jpg]]
+## Login
+- Fácil acesso
+	Facilita o login dos usuários atuais.
+- Recuperação de senha
+	Botão de recuperação de senha.
+- Cadastro
+	Mostrar um link para se cadastrar, caso o usuário não possua conta.
+![[img-130.jpg]]
+## Busca
+- Opções 
+	Para buscas mais complexas como hotéis, viagens, etc..  
+- Auto-completar
+	Com base nos resultados.
+- Retornar a palavra / opções buscadas
+	Data escolhida, local e outros.
+![[img-131.jpg]]
+# Design Responsivo
+## Interface responsivas
+- Se adapta ao meio
+	Tamanho da tela (pequena, média e grande), tipo de tela (touch ou não).
+- Único Artefato
+	Ao invés de ter um site para cada meio, ter um único site que se adapta.
+- Acessibilidade
+	Web para todos
+![[img-132.jpg]]
+Ele remove alguns elementos enquanto o seu layout vai ficando menor.
+Esses pontos de quebra são chamados de break points.
+# Boas práticas
+-  Mantenha as Funcionalidades  
+	Não assuma as necessidades do seu usuário.
+- Simplifique-/Remova Ilustrações  
+	Ilustrações ou elementos decorativos que ocuparem boa parte da tela, podem ser removidos em telas menores.
+- Simplifique a Interface
+	Esconda opções do menu, diminua o total de itens mostrados.
+- Touch
+	O dedo não é tão preciso quanto o ponteiro do mouse.
+# Navegação
+O uso do menu mobile (hambúrguer), é uma forma de esconder as opções de navegação através de um botão que mostra e esconde as mesmas.
+![[img-133.jpg]]
+## Listas e Conteúdo
+- Simplificar
+	Remover imagens, ornamentos e a quantidade de itens mostrados.
+- Recompor 
+	3 itens em colunas, se tornam 3 itens em uma coluna, um abaixo do outro.
+- Slides Horizontais
+	Usados para apresentar listas de itens (funcionam ao arrastarmos o dedo).
+![[img-134.jpg]]
+Nesse site quando ele muda de tamanho para o mobile ele muda para colunas.
+# Sistema de Design
+- Design Systems
+	Conjunto de regras/elementos que são definidos para garantir consistência entre interfaces da marca
+- Regras
+	As regras são definidas para todos os elementos do design, como espaços cores, tipografia, grid, formas, imagens, ícones e mais.
+![[img-135.jpg]]
+Nesse site: [Carbon Design System](https://carbondesignsystem.com/), temos modelos e conjunto de regras para criar um site mais estruturado e consistentes.
+mas temos outros sites com outras regras:
+- [Material Design](https://m3.material.io/)
+- [Bootstrap](https://getbootstrap.com/)
+## Vantagens e Desvantagens
+- Vantagens
+	Maior agilidade na composição de novas ideias e garante maior consistência entre diferentes projetos.
+- Desvantagens
+	Difícil de manter e pode acabar atrapalhando a geração de novas ideias.
+# Planejamento
+- Problema
+	Qual problema estamos resolvendo? Qual o objetivo do projeto? entender mais sobre o projeto.  
+- Pesquisa
+	Com usuário, concorrentes, especialistas e referências.
+- Conteúdo
+	Definir a [[arquitetura da informação]] do site, quais informações estarão disponíveis no mesmo e a sua organização.
+- Protótipo
+	Papel e caneta, wireframes e alta fidelidade.
+## Anotações
+Mantenha as anotações em um local de fácil acesso, de preferência digital como: Evernote, OneNote, Notion ou Obsidian 
+## [[Projeto Pessoal]]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Briefing Projeto
+A primeira etapa de qualquer projeto é entender sobre o projeto/empresa e as necessidades/desejos do cliente
+- Estilo
+	Coletar peças anteriores criadas pela empresa que definem o estilo da mesma. aqui vale observar cores, tipografia, formas e outros elementos já utilizados
+- Conteúdo
+	Quais os principais serviços/produtos da empresa qual o objetivo com o site?
+## Estilo
+- Cores
+	Base e ênfase. A cor de ênfase não precisa ser exatamente a cor da marca, mas uma variação da mesma. 
+- Tipografia
+	Títulos, corpo e funcional. A tipografia para títulos (Display) é uma das principais a ser influenciada pelo estilo da marca.
+- Imagens
+	São utilizadas mais fotos ou ilustrações? Qual o estilo dessas imagens?
+## Estilo de briefing
+Lista de materiais para ajudar na criação e definição do estilo do site.
+![[img-136.jpg]]
+A marca "do bem" utiliza uma tipografia display sem serifa, arredondada e orgânica em suas embalagens, essa é uma oportunidade para a definição da tipografia dos títulos.
+![[img-137.jpg]]
+## Conteúdo 
+- Objetivo do projeto
+	Qual o tipo de site (institucional, comércio eletrônico, aplicativo web)? O cliente quer vender online ou quer apenas uma vitrine?
+- Produtos/Serviços
+	Quais produtos/serviços serão expostos no site (descrição e pontos fortes)? Qual a forma de contato para adquirir algo ou tirar dúvidas sobre o produto e serviços?
+- Funcionalidades
+	Será necessário cadastro de usuários, blog? Frequência de atualização?
+- Outras Informações
+	Terá uma parte falando sobre empresa, história, funcionários, vagas, eventos?
+## Conteúdo Briefing
+1. NECESSIDADES DO CLIENTE
+	1. Me conte sobre a sua empresa, o que ela faz e a sua história.
+	2. Caso já possua um site, quais são os seus resultados?
+	3. O que te levou a querer criar um site (novo)? Qual o objetivo dele?
+2. SOBRE A EMPRESA
+	1. Que serviços / produtos você oferece e a quanto tempo? Todos serão mostrados no site? Serão mostrados preços no site ou será necessário o usuário pedir um orçamento?
+	2. Os possíveis visitantes do site estão familiarizados com o produto que você oferece ou precisam ser apresentados?
+	3. Quais dados de contato serão mostrados no site? Telefone, endereço e e-mail? Será necessária a criação de um formulário de contato?
+	4. É relevante mostrar os seus principais clientes / parceiros?
+## Bikcraft Marca
+Bikcraft é uma empresa que vende bicicletas de alta qualidade e precisão
+![[img-138.jpg]]
+## Bikcraft Estilo
+Post do Instagram da Bikcraft.
+![[img-139.jpg]]
+# Pesquisa de Mercado
+Entender o que os concorrentes e similares estão fazendo.
+- Informações
+	Qual tipo de informação é disponibilizada no site? preço, contato (email, chat), ficha técnica, assistência?
+- Funcionalidades
+	O que é possível fazer no site? Comprar, solicitar orçamento, entrar em contato via chat, reservar um horário?
+- Estilo
+	Cores, tipografia, formas, imagens e mais.
+aqui temos uma pesquisa de como funciona uma pesquisa de mercado utilizando como exemplo players de vídeo
+![[img-140.jpg]]
 
 
 
