@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Origamid/UI - UX/UI e UX.md",
+                "file": "Origamid/HTML - CSS/HTML e CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UI e UX"
+              "title": "HTML e CSS"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Origamid/UI - UX/UI e UX.md",
+                "file": "Origamid/HTML - CSS/HTML e CSS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de UI e UX"
+              "title": "Sumário de HTML e CSS"
             }
           },
           {
@@ -179,9 +179,10 @@
   },
   "active": "9e80cf4f858ea486",
   "lastOpenFiles": [
+    "Origamid/UI - UX/UI e UX.md",
+    "Origamid/UI - UX/links-externos/Projeto Pessoal.md",
     "Origamid/HTML - CSS/HTML e CSS.md",
     "Origamid/UI - UX/images/Captura de tela 2025-04-26 162725.png",
-    "Origamid/UI - UX/UI e UX.md",
     "Origamid/UI - UX/images/img-140.jpg",
     "Origamid/UI - UX/images/img-141.jpg",
     "Origamid/UI - UX/images/image.jpg",
@@ -191,7 +192,6 @@
     "Origamid/UI - UX/images/img-136.jpg",
     "Origamid/UI - UX/images/img-135.jpg",
     "Origamid/UI - UX/images/img-134.jpg",
-    "Origamid/UI - UX/links-externos/Projeto Pessoal.md",
     "Origamid/UI - UX/links-externos/arquitetura da informação.md",
     "Origamid/UI - UX/links-externos",
     "Origamid/UI - UX/images",
