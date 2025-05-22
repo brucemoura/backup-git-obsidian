@@ -220,55 +220,269 @@ a:hover::after{
 }
 ```
 ## Seletores CSS
-- h1, p
+- h1, p (tag)
 	A vírgula permite selecionarmos múltiplos elementos para a aplicação de um mesmo estilo
-- p a
+- p a (tag)
 	Seleciona todos os `a` que tiverem dentro de `p` como e elemento pai (não precisa ser filho **Direto**).
 ![[img-05.png]]
-## Id
+### Id
 Atributos HTML que adicionam um identificador **único** na tag. Esse identificador pode ser utilizado no CSS para selecionarmos o elemento: ``#nomeid``
 ![[img-06.png]]
-## Class
+### Class
 classe em HTML adicionam um classificador que seleciona **várias** tags. Esse classificador pode ser utilizado no CSS para selecionarmos o elemento: ``.nomeclass``
 ![[img-07.png]]
-
+# Background e Cores
  
+## `background color:`
+muda cor de fundo de um elemento.
+```html
+  <!-- mudadando a cor de fundo -->
+   <h1>Front End</h1>
+   <h2><a href="#">Origamid</a></h2>
+```
+``` css
+h1{
+  background-color: black;
+  color: white;
+}
 
+a{
+  display: inline-block;
+  background-color: seagreen;
+  color: white;
+}
+```
 
+![[img-08.png]]
+## Hexadecimal
+- hexadecimal
+	A cor é representada através de um  código de 6 caracteres que vão de 0 a F.
+- `#84e` = `#8844ee`
+```html
+  <!-- mudadando a cor de fundo -->
+   <h1>Front End</h1>
+   <h2><a href="#">Origamid</a></h2>
+```
+```css
+h1{
+  background-color: #8844ee;
+  color: #ffffff;
+}
 
+a{
+  display: inline-block;
+  background-color:#84e;
+  color: #000;
+  padding: 5px;
+}
+```
+![[img-09.png]]
+## RGBA
+recebe três valores diferentes com cada valor indo de 0 a 255.
+```html
+  <!-- mudadando a cor de fundo -->
+   <h1>Front End</h1>
+   <h2><a href="#">Origamid</a></h2>
+```
+```css
+h1{
+  background-color: rgb(12, 0, 175);
+  color: rgb(255, 255, 255);
+}
 
+a{
+  display: inline-block;
+  background-color:rgb(164, 126, 221);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
+```
+![[img-10.png]]
+para saber mais sobre cores podemos acessar esse outro arquivo: [[UI e UX#Cores|Cores]]
+# Box Model
+> [!info] Índice
+> - Content (conteúdo).
+> Define a largura inicial da caixa (salvo elementos de bloco).
+> - Padding (preenchimento).
+> Separa o conteúdo das bordas da caixa. É a margem interna.
+> - Border (borda).
+> Define bordas para a caixa. 
+> - Margin (margem).
+> define a distância entre uma caixa e outra.
+> - Width (largura).
+> A largura total da caixa, por padrão é o somatório do conteúdo + padding (left/right) + border (left/right).
+> - Height (altura).
+> A altura total da caixa, por padrão é o somatório do conteúdo + padding (top/bottom) + border (top/bottom).
 
+![[img-12.png]]
+## Caixas
+Uma interface web é composta de diversas caixas que organizam o conteúdo
+![[img-11.png]]
+## Pixel
+- unidade de referência 
+	É a unidade de referência da web, pois as telas são desenvolvidas em pixels.
+- monitores
+	Um monitor de: 3840(largura em px) X 2160(altura em px) = 8.294.400
+- px em CSS 
+	No CSS o pixel (px) é uma unidade de referência e não representa 1px exato do seu dispositivo (é adaptável em relação à densidade da tela.)
+## div
+A `<div>` é um elemento de bloco block genérico que serve para auxiliar no posicionamento dos elementos/conteúdo na tela.
+Existem também elementos semânticos como main, section, nav e outros que veremos em outras aulas.
+```html
+  <div class="quadrado"></div>
+  <h1>Front End</h1>
+  <div class="quadrado">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+```
+```css
+.quadrado{
+  display: inline-block;
+  background: #aaa;
+  width: 140px;
+  height: 80px;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 20px;
+}
 
+h1{
+  background: #84e;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 40px;
+}
+```
+![[img-13.png]]
+# Estilos do browser
+- padrão
+	Os browsers possuem um css inicial que é aplicado ao documento
+- h1 vs p
+	Por isso quando marcamos um h1 o texto fica maior/negrito em relação a um texto marcado como um p
+![[img-14.png]]
+# inherit (Herança)
+Existem propriedades do CSS que são passadas do pai para o filho como uma herança (inherit).
+- Exemplos
+	color, font-size, font-family e outras.
+- Padrão vs Herança 
+	O valor padrão irá escrever por cima da herança. por isso ao definirmos uma color no body, os `<a>` não mudam de cor
+![[img-15.png]]
+```html
+  <h1>Curso de HTML</h1>
+  <p>Cusos de Design</p>
+  <button>clique</button>
+  <div>Cursos de CSS</div>
+  <a href="#">Cursos de JavaScript</a>
+```
+```css
+body{
+  color: cadetblue;
+}
+```
+`<button>` e `<a>` não estão herdando a cor do body porque no browser eles tem o valor padrão de `webkit-link`, e quando há um valor qualquer ele não herda, então se quisermos mudar o valor de `<a>` vamos ter que atacar ele direto mudando a cor dele, ou mudando-o para o valor de herança inherit
+```html
+  <h1>Curso de HTML</h1>
+  <p>Cusos de Design</p>
+  <button>clique</button>
+  <div>Cursos de CSS</div>
+  <a href="#">Cursos de JavaScript</a>
+```
+```css
+body{
+  color: cadetblue;
+}
+a{
+	color: cadetblue;
+}
+/* ou */
+a{
+	color: inherit; /*herança*/
+}
+```
+# Display
+## Fluxo do layout
+O fluxo do layout no HTML ocorre conforme o modo de escrita definido. Por padrão, de cima pra baixo, da esquerda para a direta.
+- span
+tag genérica que não possui nenhum estilo pré definido/Semântica. é equivalente a uma div, mas sem o display block.
+```html
+Texto direto no body <a href="#">Texto no link</a> <span>Texto no span</span>
+Texto direto no body2 <a href="#">Texto no link2</a> <span>Texto no span2</span>
+```
+![[img-16.png]]
+podemos mudar o fluxo dele:
+```html
+Texto direto no body <a href="#">Texto no link</a> <span>Texto no span</span>
+Texto direto no body2 <a href="#">Texto no link2</a> <span>Texto no span2</span>
+```
+```css
+body{
+  writing-mode: vertical-lr;
+}
+```
+![[img-17.png]]
+## Display inline e block
+Define como a caixa (box model) irã se comportar
+- inline
+	Respeita o fluxo da escrita sem iniciar uma nova linha, não é possível definir valores de `widht`, `height`, `margin(top/bottom)` e etc. É o estilo padrão
+- block
+	inicia uma nova linha e não permite que outros elementos sejam posicionados em sua linha, aceita todas as propriedades do box model. Estilo inicial de elementos como h1, p, div, e outros.
+```html
+  texto puro
+  <div>Novo texto em div</div>
+  <a href="#">Novo Link</a>
+  <strong>Esse é um texto em negrito.</strong>
+  <h1>Novo h1</h1>
+  <span>Novo texto em span</span>
+  <div>esse é um texto com
+    <div>um elemento em bloco</div> dentro dele
+  </div>
+```
+```css
+div, a, h1, strong, p{
+  border: 1px solid rgba(255, 0, 0, 0.281);
+}
+```
+![[img-18.png]]
+## none e inline-block
+- none 
+	Remove o elemento completamente da tela
+- inline-block
+	O elemento continua em linha mas parra a receber as propriedades do box model
+```html
+ <div class="esconder">Esse elemento será "apagado"</div>
+ <div>
+  acesse o meu <a href="#" class="link">link inline-block</a> aqui
+ </div>
 
+ <div>novo elemento de bloco</div>
+ <div>
+  acesse o meu <a href="#" class="link-2">link inline</a> aqui
+ </div>
+ <div>novo elemento de bloco</div>
+```
+```css
+.esconder{
+  display: none;
+}
 
+div > .link{
+  display: inline-block;
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: aqua;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div > .link-2{
+  display: inline;
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  background-color: aqua;
+}
+```
+![[img-19.png]]
 
 
 
