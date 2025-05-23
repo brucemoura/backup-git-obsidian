@@ -483,7 +483,7 @@ div > .link-2{
 }
 ```
 ![[img-19.png]]
-
+foi exatamente isso!!
 
 
 
