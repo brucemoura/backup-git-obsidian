@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "475dd8b662d48c5b",
+        "id": "dde112325ebf4039",
         "type": "tabs",
         "children": [
           {
-            "id": "eb4f1115a1f56778",
+            "id": "52be6ae064f1ad40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Origamid/HTML - CSS/HTML e CSS.md",
+                "file": "HTML - CSS/HTML e CSS.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 200
   },
   "right": {
     "id": "d94aca16319c999c",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Origamid/HTML - CSS/HTML e CSS.md",
+                "file": "HTML - CSS/HTML e CSS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -164,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,35 +179,36 @@
   },
   "active": "9e80cf4f858ea486",
   "lastOpenFiles": [
-    "Origamid/HTML - CSS/imagens/Screenshot 2025-05-22 112851.png",
-    "Origamid/HTML - CSS/HTML e CSS.md",
-    "Origamid/HTML - CSS/imagens/img-19.png",
-    "Origamid/HTML - CSS/imagens/img-18.png",
-    "Origamid/HTML - CSS/imagens/img-18.png",
-    "Origamid/HTML - CSS/imagens/img-17.png",
-    "Origamid/HTML - CSS/imagens/Captura de tela 2025-05-22 095558.png",
-    "Origamid/HTML - CSS/imagens/img-16.png",
-    "Origamid/HTML - CSS/imagens/img-15.png",
-    "Origamid/HTML - CSS/imagens/img-14.png",
-    "Origamid/HTML - CSS/imagens/img-13.png",
+    "HTML - CSS/imagens/img-80.png",
+    "HTML - CSS/imagens/img-79.png",
+    "HTML - CSS/imagens/vid-01.mp4",
+    "HTML - CSS/imagens/img-78.png",
+    "HTML - CSS/imagens/img-77.png",
+    "HTML - CSS/imagens/img-76.png",
+    "HTML - CSS/imagens/img-75.png",
+    "HTML - CSS/imagens/img-74.png",
+    "HTML - CSS/imagens/img-73.png",
+    "HTML - CSS/imagens/img-72.png",
+    "HTML - CSS/imagens/img-71.png",
+    "HTML - CSS/imagens/img-70.png",
+    "HTML - CSS/HTML e CSS.md",
+    "configuração do VsCode.md",
+    "UI - UX/UI e UX.md",
     "!Cores.md",
     "Cores.md",
-    "Origamid/UI - UX/UI e UX.md",
-    "Origamid/HTML - CSS/links-internos/Case sensitive.md",
-    "Origamid/HTML - CSS/links-internos/Case insensitive.md",
-    "Origamid/HTML - CSS/links-internos",
-    "Origamid/HTML - CSS/imagens",
-    "Origamid/UI - UX/links-externos/Projeto Pessoal.md",
-    "Origamid/UI - UX/links-externos/arquitetura da informação.md",
-    "Origamid/UI - UX/links-externos",
-    "Origamid/UI - UX/images",
+    "HTML - CSS/links-internos/Case sensitive.md",
+    "HTML - CSS/links-internos/Case insensitive.md",
+    "HTML - CSS/links-internos",
+    "HTML - CSS/imagens",
+    "UI - UX/links-externos/Projeto Pessoal.md",
+    "UI - UX/links-externos/arquitetura da informação.md",
+    "UI - UX/links-externos",
+    "UI - UX/images",
     "Origamid/UI - UX/img",
     "Origamid/UI - UX/Nova pasta",
     "Origamid",
-    "Sem título.md",
-    "Origamid/UI - UX",
+    "UI - UX",
     "Origamid/JavaScript",
-    "Origamid/HTML - CSS",
     "teste/primeiro teste.md",
     "deu certo.md",
     "Sem título/como se comportae.md",
