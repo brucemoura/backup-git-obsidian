@@ -506,6 +506,7 @@ A tag `img` é utilizada para adicionarmos imagens á nossa página.
 ![[HTML - CSS/imagens/img-20.jpg]]
 >[!info] observação
 >quando formos colocar uma imagem em nosso site temos que ter cuidado com a nossa resolução, uma coisa que devemos fazer e pegar uma imagem do dobro do tamanho e setar um tamanho por código pela metade, e.g. temos uma imagem de 200px, em um monitor normal ele ficaria nitida mas em um monitor de resolução maior tipo 4k ela ficaria borrada, para solucionar isso vamos pegar essa imagem e dobrar o tamanho dela, mas no código vamos colocar que ela terá 200px de largura, então ela ficará nitida para todos os monitores.
+>Clique aqui para saber mais sobre a parte teórica: [[UI e UX#Imagens|Imagens]]
 
 `svg` e `png`
 Para usarmos o `svg` e `png` fazemos a mesma coisa, mas no final vamos colocar`.svg` e `.png`.
@@ -2122,6 +2123,62 @@ O `:not` nega a seleção de um elemento específico.
   background-color: #fff;
 }/* Todos estão brancos menos o primeiro e o último que foi selecionado*/
 ```
+### Atributos
+- `[atributo]`
+	Seleciona os elementos que tiverem o atributo dentro dos `[]`
+- `[name="email"]`
+	Seleciona apenas o elemento que tiver o atributo e o valor
+- `[href^="#"]`
+	Seleciona atributos que comecem `^` com o valor `#`
+- `[href$=".com"]`
+	Seleciona atributos que terminam `$` com o valor `.com`
+![[img-87.png]]
+```css
+p [required]{
+/* Todos os elementos required que tiverem dentro de um p  */
+  background-color: cornflowerblue;
+}
+
+a[href="#contato"]{
+  /* Todos os a's que tiverem #contato */
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+[href^="#"]{
+  background-color: darkgray;
+}
+
+[href$=".com"]{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: aliceblue;
+}
+```
+### Sinais
+- `div > p`
+	Apenas `p` que for filho direto de `div`
+- `p + p`
+	Todo `p` que vier após um elemento `p`
+- `*`
+	Seleciona todos os elementos do site.
+![[img-88.png]]
+```css
+section > h2{
+  color: cornflowerblue;
+}
+
+article{
+  background-color: lightblue;
+  padding: 10px;
+}
+
+p + p{
+  margin-top: 20px;
+}
+```
 ## ::before e ::after
 Os pseudo elements ::before e ::after criam elementos HTML com base no seletor.
 - content
@@ -2290,44 +2347,333 @@ O `max-width` determina um valor máximo de largura do elemento. Não deixe os e
 	Controlar o tamanho máximo da largura do texto é essencial para garantir uma boa leiturabilidade. Para corpo de texto entre 70 e 70 caracteres é o ponto ideal.
 - margin: 0 auto;
 	margin top e bottom 0, margin right e left automática(define valores iguais com base no espaço em branco e alinha o conteúdo ao centro.)
+# Ferramentas
+- Node
+	Executa Javascript que manipula o sistema.
+- Git e Git Bash
+	Facilita o controle de versão do código
+# Linha de Comando (CLI)
+- Interagir com o computador através de textos
+	Comando começando com $(Unix) ou >(Win)
+- UNIX (Mac e Linux) vs Windows
+	Bash e Zsh (Unix) | CMD e PowerShell (Windows)
+[SS64 Referência de Linha de Comando](https://ss64.com/)
+# NPM
+- Gerenciador de pacotes
+	Permite instalarmos diferentes programas e versões utilizando o comando `$ npm`
+- Instalar Globalmente
+	`$ npm install -g nomedopacote` |	`$ npm i -g nomedopacote`  
+- Remover Globalmente
+	`$ npm remove -g nomedopacote`
+- Cleancss
+	O pacote que vamos instalar será o cleancss, ele e feito para reduzir ao máximo o tamanho do nosso css, para instalar ele vamos ter que colocar o código: `$ npm install -g clean-css-cli`.
+	Para executar usamos o código `cleancss -o arquivoqueserácriado arquivoexistente`. Como boa quando um arquivo for criado nomeamos ele como o antigo e colocamos um `.min` entre o nome do arquivo e o css: `cleancss -o style.min.css style.css`.
+# Git e Github
+- Git
+	Sistema de controle de versão. Facilita o trabalho em equipe e o controle de mudanças entre arquivos e diretórios
+- Github
+	Plataforma online de hospedagem para repositórios Git. Existem outras como GitLab e Bitbucket.
+Logando pelo terminal
+```bash
+git config --global user.name "name"
+git config --global user.email "email"
+```
+Agora vamos adicionar todos os arquivos
+```bash
+git add -A // Vai adicionar todos os arquivos ao repositório.
+git commit -m 'desc' // O commit serve para darmos uma descrição para os arquivos enviados
+git status // Usamos status para ver se tem algum doc que sofreu alteração mas não foi para o repositório.
+```
+> [!info] Lembrando
+> Todas as vezes que fizermos alterações no nossos arquivos temos que executar `git add -A` e `git commit`
+
+O que temos até agora e apenas os arquivos no nosso repositório local, então vamos colocar ao vivo no Github.
+1° - No Github Criamos um novo repositório.![[img-81.png]]
+Para podermos ter um site hospedado na hora da criação do repositório, temos que colocar `.github.io` no final do nome
+```bash
+git remote add origin // Vai falar aonde temos que colocar nosso arquivos.
+git branch -M main // essa linha só é necessaria caso sua branch estaja em master
+git push -u origin main // Vai mandar seus arquivos para o github
+```
+# Formulário
+## form
+- form 
+	A tag form é utilizada para envolver os campos de um formulário.
+- action=""
+	O atributo action indica o arquivo/url que será ativado ao enviarmos o formulário.
+- method="`post` / `get`"
+	POST(envio de informações) e GET(busca de informações).
+### Input
+dentro de form vamos colocar alguns tipos de tags a primeira e a input.
+Teremos inputs de vários tipos como esse abaixo que é de texto.
+- type
+	Existem vários tipos de type para inputs onde os mais comuns são:
+	1. `text` – campo de texto simples
+	2. `password` – campo para senha (oculta os caracteres)
+	3. `email` – valida e-mail
+	4. `number` – aceita apenas números
+	5. `tel` – usado para números de telefone
+	6. `url` – valida URLs
+	7. `search` – campo de busca (com estilo de busca)
+	8. `checkbox` – caixa de seleção
+	9. `radio` – botão de opção
+	10. `file` – para upload de arquivos
+	11. `date` – seletor de data
+	12. `time` – seletor de hora
+	13. `datetime-local` – data e hora local
+	14. `range` – controle deslizante (slider)
+	15. `color` – seletor de cor
+- id
+	Usado para relacionar o input e o label, com isso se clicarmos em label ele aciona diretamente o input.
+- name
+	Manda informações através da URL para o php. Com o envio no php teremos acesso ao `nome` e ao valor de nome `Bruce Moura`, onde `nome` será uma variável e `Bruce Moura` será o valor da variável sem o atributo `name` não podemos passar esses valores para o php. 
+### Label
+junto com o input temos que colocar outra tag chamada label, usamos ela para dar uma etiqueta/rotulo para os nossos inputs.
+### Button 
+Além de label e input temos que ter um jeito de enviar as informações do formulário, fazemos isso com o button
+- type
+	Em button também existem alguns types:
+	1. `submit` – botão de envio
+	2. `reset` – botão para limpar o formulário
+	3. `button` – botão genérico
+![[img-82.png]]
+```html
+  <form action="" >
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="nome">
+
+    <label for="senha">Senha</label>
+    <input type="password" id="senha">
+
+    <label for="email">Email</label>
+    <input type="email" id="email">
+
+    
+    <label for="idade">Idade</label>
+    <input type="number" id="idade">
+
+    
+    <label for="data">data</label>
+    <input type="date" id="data">
+    <button type="">Enviar</button>
+
+  </form>
+```
+### Atributos
+- placeholder=''
+	Texto quando o formulário não está preenchido. (dica de preenchimento)
+- required
+	Define o input como obrigatório
+- disable
+	Desabilita o input
+- minlength e maxlength
+	Mínimo e máximo de caracteres.
+- value
+	Valor inicial do formulário.
+![[img-83.png]]
+```html
+  <form action="" >
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="nome">
+
+    <label for="CPF">CPF</label>
+    <input type="text" id="CPF" placeholder="000.000.000-00">
+
+    <label for="senha">Senha</label>
+    <input type="password" id="senha" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" disabled>
+
+    
+    <label for="idade">Idade</label>
+    <input type="number" id="idade" value="0" >
+
+    
+    <label for="data">data</label>
+    <input type="date" id="data">
+    <button type="">Enviar</button>
+
+  </form>
+```
+### checkbox e radio
+checkbox e radio são dois tipos de formulário onde um (checkbox) e um quadrado que pode ser marcado e o outro (radio) é uma bolinha que pode ser selecionada, para o radio se o atributo `name` for igual para dois elementos, so 1 poderá ser selecionado.
+![[img-84.png]]
+```html
+<div class="checkbox">
+  <input type="checkbox" name="checkbox" id="checkbox">
+  <label for="checkbox">Aceito os Temos e Condições da empresa</label>
+</div>
+
+<div class="checkbox">
+  <input type="checkbox" name="checkbox" id="anuncio">
+  <label for="anuncio">Desejo reber anúncios</label>
+</div>
 
 
+<p>Entregra</p>
+<div class="radio">
+  <input type="radio" name="retirada" id="retirada">
+  <label for="retirada">Retirar no local</label>
+</div>
+
+<div class="radio">
+  <input type="radio" name="retirada" id="em-casa">
+  <label for="em-casa">Entrega em casa</label>
+</div>
 
 
+<p>Encomenda</p>
+<div class="radio">
+  <input type="radio" name="retirada1" id="ft1">
+  <label for="ft1">Retirar no local</label>
+</div>
 
+<div class="radio">
+  <input type="radio" name="retirada1" id="ft2">
+  <label for="ft2">Entrega em casa</label>
+</div>
+```
+### Select
+- select
+	Campo de seleção com diferentes opções (option).
+- option
+	Opções do campo de seleção.
+![[img-85.png]]
+```css
+<label for="parcelas">Parcelas</label>
+    <select name="parcelas" id="parcelas">
+      <option value="1x">1x de R$1200</option>
+      <option value="3x">3x de R$400</option>
+      <option value="6x">6x de R$200</option>
+      <option value="12x">12x de R$100</option>
+    </select>
+```
+### Textarea
+- textarea
+	Campo para textos/ Uma caixa de mensagens
+![[img-86.png]]
+```html
+<label for="mensagem">Mensagem</label>
+<textarea name="mensagem" id="mensagem" cols="40" rows="20"></textarea>
 
+```
+# Propriedades customizadas
+Também conhecidas como variáveis css (custom properties), permite definirmos valores no CSS que podem ser reutilizadas no nosso código.
+A propriedade é herdada pelos elementos filhos. É comum definirmos as mesmas nos elementos `:root` ou `html`, assim teremos acesso à propriedade em todos os elementos do site.
+- `--roxo: #caf`
+	Define uma propriedade customizada.
+- `var(--roxo)`
+	A função var utiliza uma propriedade customizada.
+![[img-89.png]]
+```html
+<style>
+  :root{
+    --cor-bg-body: #7c7c7c;
+    --cor-tit-prin: #caf;
+    --cor-txt: rgb(29, 0, 71);
+    --font-text: arial;
+  }
+  body{
+    margin: 220px;
+    font-family: var(--font-text);
+    background-color: var(--cor-bg-body);
+  }
+  h1{
+    color: var(--cor-tit-prin);
+  }
+  p{
+    width: 400px;
+    color: var(--cor-txt);
+  }
+</style>
+<body>
+  <h1>Nossos Produtos</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum neque dolore magnam atque sunt? Dolorem earum dolores, cumque tempora facilis quam quaerat inventore laboriosam voluptatum rerum sint laborum perferendis est!</p>
+</body>
+```
+## prefers-color-scheme
+A `@media prefers-color-scheme` irá executar o código css conforme a preferência de tema do usuário. Funciona da mesa forma que o `@media querie` com o max-width, porém agora em relação ao modo escuro(dark) ou claro(light).
+![[img-90.png]]
+```css
+html{
+  background-color: var(--fundo);
+}
+html h1{
+  color: var(--titulo);
+}
 
+html p{
+  color: var(--texto);
+}
 
+@media (prefers-color-scheme: dark){
+  html{
+    --fundo: #222;
+    --titulo: #eee;
+    --texto: #bbb;
+  }
+}
 
+@media (prefers-color-scheme: light){
+  html{
+    --fundo: #fff;
+    --titulo: #111;
+    --texto: #444;
+  }
+}
+```
+# CSS Utilitário
+Uso de classes com propriedades pré definidas, geralmente utilizadas em bibliotecas de CSS como Bootstrap e Tailwind.
+![[img-91.png]]
+```html
+  <h1 class="titulo-primario">
+    <!-- Sem class utilitária -->
+    Nossos Produtos
+  </h1>
+  <h1 class="texto-grande cor-texto alinhamento-texto caixa-texto">
+    <!-- Class utilitária -->
+    Nossos Produtos
+  </h1>
+```
+```css
+/* CSS */
+.titulo-primario{
+  font-size: 40px;
+  line-height: 50px;
+  color: #a8f;
+  background-color: #111;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
 
+/* CSS utilitário */
+.texto-grande{
+  font-size: 40px;
+  line-height: 50px;
+}
 
+.cor-texto{
+  color: #a8f;
+  background-color: #111;
+}
 
+.caixa-texto{
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 300px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.alinhamento-texto{
+  margin: 20px auto;
+  text-align: center;
+}
+```
 
 
 
