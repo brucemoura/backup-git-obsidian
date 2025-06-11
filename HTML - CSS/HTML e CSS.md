@@ -8,8 +8,8 @@ O curso
 > 	Visual Studio Code
 
 # Projetos
-- Portifólio Simples:![[img-01.png]]
-- Projeto Final:![[img-02.png]]
+- Portifólio Simples:![[HTML - CSS/imagens/img-01.png]]
+- Projeto Final:![[HTML - CSS/imagens/img-02.png]]
 Além desses dois projetos grandes teremos alguns mini projetos.
 >[!note] Grade
 >- HTML e CSS para Iniciantes
@@ -91,7 +91,7 @@ Esses três são o bloco principal de web:
 - Atributo
 	Os atributos dão informações extras sobre uma tag para o browser.
 	[[Case insensitive]] o nome do atributo, [[Case sensitive]] o valor do atributo.
-![[img-03.png]]
+![[HTML - CSS/imagens/img-03.png]]
 # Tag 
 - Conteúdo
 	As tags servem para inserirmos conteúdos como textos, imagens, vídeos e outros. Além da dar informações para o browser como o título do site, linguagem e outras.
@@ -186,7 +186,7 @@ Esses três são o bloco principal de web:
 	Define o que será alterado.
 - Valor
 	Define o valor do novo estilo.
-![[img-04.png]]
+![[HTML - CSS/imagens/img-04.png]]
 ``` css
 h1{
   font-family: Arial, Helvetica, sans-serif;
@@ -224,13 +224,13 @@ a:hover::after{
 	A vírgula permite selecionarmos múltiplos elementos para a aplicação de um mesmo estilo
 - p a (tag)
 	Seleciona todos os `a` que tiverem dentro de `p` como e elemento pai (não precisa ser filho **Direto**).
-![[img-05.png]]
+![[HTML - CSS/imagens/img-05.png]]
 ### Id
 Atributos HTML que adicionam um identificador **único** na tag. Esse identificador pode ser utilizado no CSS para selecionarmos o elemento: ``#nomeid``
-![[img-06.png]]
+![[HTML - CSS/imagens/img-06.png]]
 ### Class
 classe em HTML adicionam um classificador que seleciona **várias** tags. Esse classificador pode ser utilizado no CSS para selecionarmos o elemento: ``.nomeclass``
-![[img-07.png]]
+![[HTML - CSS/imagens/img-07.png]]
 # Background e Cores
  
 ## `background color:`
@@ -253,7 +253,7 @@ a{
 }
 ```
 
-![[img-08.png]]
+![[HTML - CSS/imagens/img-08.png]]
 ## Hexadecimal
 - hexadecimal
 	A cor é representada através de um  código de 6 caracteres que vão de 0 a F.
@@ -276,7 +276,7 @@ a{
   padding: 5px;
 }
 ```
-![[img-09.png]]
+![[HTML - CSS/imagens/img-09.png]]
 ## RGBA
 recebe três valores diferentes com cada valor indo de 0 a 255.
 ```html
@@ -297,7 +297,7 @@ a{
   padding: 5px;
 }
 ```
-![[img-10.png]]
+![[HTML - CSS/imagens/img-10.png]]
 para saber mais sobre cores podemos acessar esse outro arquivo: [[UI e UX#Cores|Cores]]
 # Box Model
 > [!info] Índice
@@ -314,10 +314,10 @@ para saber mais sobre cores podemos acessar esse outro arquivo: [[UI e UX#Cores|
 > - Height (altura).
 > A altura total da caixa, por padrão é o somatório do conteúdo + padding (top/bottom) + border (top/bottom).
 
-![[img-12.png]]
+![[HTML - CSS/imagens/img-12.png]]
 ## Caixas
 Uma interface web é composta de diversas caixas que organizam o conteúdo
-![[img-11.png]]
+![[HTML - CSS/imagens/img-11.png]]
 ## Pixel
 - unidade de referência 
 	É a unidade de referência da web, pois as telas são desenvolvidas em pixels.
@@ -353,7 +353,7 @@ h1{
   margin: 40px;
 }
 ```
-![[img-13.png]]
+![[HTML - CSS/imagens/img-13.png]]
 # Estilos do browser
 - padrão
 	Os browsers possuem um css inicial que é aplicado ao documento
@@ -366,7 +366,7 @@ Existem propriedades do CSS que são passadas do pai para o filho como uma heran
 	color, font-size, font-family e outras.
 - Padrão vs Herança 
 	O valor padrão irá escrever por cima da herança. por isso ao definirmos uma color no body, os `<a>` não mudam de cor
-![[img-15.png]]
+![[HTML - CSS/imagens/img-15.png]]
 ```html
   <h1>Curso de HTML</h1>
   <p>Cusos de Design</p>
@@ -419,7 +419,7 @@ body{
   writing-mode: vertical-lr;
 }
 ```
-![[img-17.png]]
+![[HTML - CSS/imagens/img-17.png]]
 ## Display inline e block
 Define como a caixa (box model) irã se comportar
 - inline
@@ -442,7 +442,7 @@ div, a, h1, strong, p{
   border: 1px solid rgba(255, 0, 0, 0.281);
 }
 ```
-![[img-18.png]]
+![[HTML - CSS/imagens/img-18.png]]
 ## none e inline-block
 - none 
 	Remove o elemento completamente da tela
@@ -514,6 +514,19 @@ Para saber a diferença entre todos os tipos de imagens clique aqui: [[UI e UX#I
 Quase nunca colocaremos em nosso site imagens de tamanho maior que 1mb. podemos otimizar essas imagens pelo site [Squoosh](https://squoosh.app/), também vamos otimizar a imagem pelo tamanho dela.
 ![[img-21.png]]
 A imagem otimizada reduziu 73% do tamanho da image, poderíamos reduzir ainda mais caso abaixássemos a largura e a altura.
+## Imagem dinâmica
+A imagem dinâmica vai escolher imagens diferentes para cada tipo de tamanho de tela
+![[img-92.png]]
+![[img-93.png]]
+![[img-94.png]]
+```html
+<picture>
+    <source media="(max-width: 825px)" srcset="img/img-p.png" sizes="image/png">
+    <source media="(max-width: 1125px)" srcset="img/img-m.png" sizes="image/png">
+    <img src="img/img-g.png" alt="imagem grande">
+  </picture>
+```
+
 # Posicionamento
 ## Top, Right, Bottom, Left
 Propriedades como margin, padding, e border permitem definirmos valores diferentes para cada um dos lados da caixa(Box Model).
@@ -2560,6 +2573,11 @@ checkbox e radio são dois tipos de formulário onde um (checkbox) e um quadrado
 <textarea name="mensagem" id="mensagem" cols="40" rows="20"></textarea>
 
 ```
+## Informação pela URL
+Uma coisa muito importante que vamos fazer aqui e mandar informações pela url.
+- No Input radio vamos escrever `name='tipo'` (esse `tipo` pode ser qualquer outro texto), e vamos pegar o valor dele e colocar `value='seguro'`. 
+- No link href vamos colocar `?tipo=seguro&produto=prata` `<a href="teste.html?tipo=seguro&produto=prata">botao</a>`
+`?tipo=seguro&produto=prata` isso vai fazer o seguinte, ele vai mandar as informações tipo=seguro e produto=prata para a url, na url vamos poder pegar essas informações para que quando clicarmos no botão de compra ele ir direto para o produto que foi selecionado. 
 # Propriedades customizadas
 Também conhecidas como variáveis css (custom properties), permite definirmos valores no CSS que podem ser reutilizadas no nosso código.
 A propriedade é herdada pelos elementos filhos. É comum definirmos as mesmas nos elementos `:root` ou `html`, assim teremos acesso à propriedade em todos os elementos do site.

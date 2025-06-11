@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dde112325ebf4039",
+        "id": "0f426c45cf6eeaf3",
         "type": "tabs",
         "children": [
           {
-            "id": "52be6ae064f1ad40",
+            "id": "52f955c71c6ba95f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML - CSS/HTML e CSS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "HTML e CSS"
+              "title": "Nova aba"
             }
           }
         ]
@@ -107,19 +103,6 @@
             }
           },
           {
-            "id": "41a1a63b8ebf62a0",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Links de saída"
-            }
-          },
-          {
             "id": "a41895fdce4ae826",
             "type": "leaf",
             "state": {
@@ -140,13 +123,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML - CSS/HTML e CSS.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de HTML e CSS"
+              "title": "Sumário"
             }
           },
           {
@@ -158,13 +140,27 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "5fc2196bb10debb1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTML - CSS/Grid/Grid.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Grid"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 249.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,36 +175,40 @@
   },
   "active": "9e80cf4f858ea486",
   "lastOpenFiles": [
-    "HTML - CSS/imagens/img-91.png",
-    "HTML - CSS/imagens/img-90.png",
-    "HTML - CSS/imagens/Screenshot 2025-05-26 173624.png",
-    "HTML - CSS/imagens/Screenshot 2025-05-26 173612.png",
-    "HTML - CSS/imagens/Screenshot 2025-05-26 173427.png",
-    "HTML - CSS/imagens/Screenshot 2025-05-26 173356.png",
-    "HTML - CSS/imagens/img-89.png",
-    "HTML - CSS/imagens/img-89.png",
-    "HTML - CSS/imagens/img-88.png",
-    "HTML - CSS/imagens/img-87.png",
-    "HTML - CSS/imagens/img-86.png",
+    "HTML - CSS/Grid/Grid.md",
+    "UI - UX/UI Designer Avançado.md",
+    "UI - UX/img-ui-avancado/img-07.png",
+    "UI - UX/img-ui-avancado/img-06.png",
+    "UI - UX/img-ui-avancado/img-05.png",
+    "UI - UX/img-ui-avancado/img-04.png",
+    "UI - UX/img-ui-avancado/img-03.png",
+    "HTML - CSS/Flexbox/Flexbox.md",
+    "Callouts.md",
+    "UI - UX/img-ui-avancado/img-02.png",
+    "UI - UX/img-ui-avancado/img-01.png",
+    "UI - UX/img-ui-avancado",
+    "UI - UX/Nova pasta",
     "UI - UX/UI e UX.md",
+    "HTML - CSS/Grid/imagens/img-18.png",
+    "HTML - CSS/Grid/imagens/img-17.png",
+    "HTML - CSS/Grid/imagens/img-16.png",
+    "HTML - CSS/Grid/imagens",
+    "HTML - CSS/Flexbox/imagens",
+    "HTML - CSS/Flexbox",
+    "HTML - CSS/Grid/Flexbox/Flexbox.md",
+    "HTML - CSS/Grid/Flexbox/imagens",
+    "HTML - CSS/Grid/Flexbox",
     "HTML - CSS/HTML e CSS.md",
-    "HTML - CSS/imagens/vid-01.mp4",
     "configuração do VsCode.md",
+    "HTML - CSS/Flexbox/Sem título",
+    "HTML - CSS/Grid",
+    "HTML - CSS/imagens/vid-01.mp4",
     "!Cores.md",
     "Cores.md",
     "HTML - CSS/links-internos/Case sensitive.md",
     "HTML - CSS/links-internos/Case insensitive.md",
-    "HTML - CSS/links-internos",
-    "HTML - CSS/imagens",
     "UI - UX/links-externos/Projeto Pessoal.md",
     "UI - UX/links-externos/arquitetura da informação.md",
-    "UI - UX/links-externos",
-    "UI - UX/images",
-    "Origamid/UI - UX/img",
-    "Origamid/UI - UX/Nova pasta",
-    "Origamid",
-    "UI - UX",
-    "Origamid/JavaScript",
     "teste/primeiro teste.md",
     "deu certo.md",
     "Sem título/como se comportae.md",
